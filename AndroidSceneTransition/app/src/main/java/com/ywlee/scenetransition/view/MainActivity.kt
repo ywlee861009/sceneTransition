@@ -23,6 +23,6 @@ class MainActivity : BaseMvvmActivity<ActivityMainBinding, MainViewModel>() {
     }
 
     override fun observeViewModelVariables() {
-
+        mViewModel.getImageList()
     }
 }
